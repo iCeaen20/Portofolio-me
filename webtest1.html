@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Ikhsan</title>
+    <link rel="stylesheet" href="gaya.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <div class="foto">
+            <img src="D:\IKHSAN\PROJECT 1 - websitepertama\LOGO Bisnis 1.png" class="left-image">
+            <div class="text">
+                <h1>Hi, I'm I ce aen</h1>
+                <p>I'm a web developer with a passion for creating beautiful and functional websites. Below are some of my recent projects.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>Building website.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>Server development.</p>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+<!-- skills option -->
+    <div class="skills">
+        <h2>My Skills</h2>
+        <div class="skill">
+            <div class="html">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png" class="logo-kiri">
+            <label>HTML</label>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 90%;"></div>
+                </div>
+            </div>
+        </div>
+        <div class="skill">
+            <label>CSS</label>
+            <div class="progress">
+                <div class="progress-bar" style="width: 75%;"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <label>Phyton</label>
+            <div class="progress">
+                <div class="progress-bar" style="width: 45%;"></div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p id="success-message"></p>
+    </section>
+
+    <script src="animated.js"></script>
+</body>
+</html>

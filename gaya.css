@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-image: url('https://www.zmo.ai/wp-content/uploads/2023/09/powerpoint-slide-with-white-background-SB02298-min-scaled.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    cursor:default
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+.foto {
+    display: flex;
+    align-items: center;
+    transition: transform 0.5s ease;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.foto:hover {
+    transform: scale(1.1); /* Membesarkan sedikit */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Tambahkan bayangan */
+}
+
+.left-image {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.text {
+    max-width: 600px;
+}
+
+.project-grid {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.project {
+    flex: 1;
+    min-width: 250px;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.skills {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.skill {
+    margin-bottom: 15px;
+}
+
+.html {
+    display: flex;
+    align-items: center;
+}
+
+.logo-kiri {
+    width: 30px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.progress {
+    background-color: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    background-color: #4ca1af;
+    height: 10px;
+    border-radius: 10px;
+    transition: width 0.4s ease;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+form input, form textarea, form button {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#success-message {
+    color: green;
+    margin-top: 1rem;
+}
+
+button, .project-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover, .project-card:hover {
+    transform: translateY(-3px); /* Naik sedikit */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Tambahkan bayangan */
+}
+
